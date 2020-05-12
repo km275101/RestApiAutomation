@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="38895" started-at="2020-05-12T19:15:12Z" finished-at="2020-05-12T19:15:51Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="38895" started-at="2020-05-12T19:15:12Z" finished-at="2020-05-12T19:15:51Z">
+      <class name="com.rest.automation.LoginJira">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.rest.automation.LoginJira@393671df]" name="initialize" is-config="true" duration-ms="2819" started-at="2020-05-12T19:15:12Z" finished-at="2020-05-12T19:15:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="searchLocation()[pri:0, instance:com.rest.automation.LoginJira@393671df]" name="searchLocation" duration-ms="19650" started-at="2020-05-12T19:15:15Z" finished-at="2020-05-12T19:15:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchLocation -->
+        <test-method status="PASS" signature="createIssue()[pri:1, instance:com.rest.automation.LoginJira@393671df]" name="createIssue" duration-ms="16364" started-at="2020-05-12T19:15:34Z" finished-at="2020-05-12T19:15:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createIssue -->
+      </class> <!-- com.rest.automation.LoginJira -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
